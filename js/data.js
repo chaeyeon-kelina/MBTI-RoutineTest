@@ -110,7 +110,23 @@ const qnaList = [
       { answer: 'b. ', type: [3, 2, 6, 5, 10, 8 ] },
       { answer: 'c. ', type: [1, 7, 11 ] },
     ]
-  }
+  },
+  {
+    q: '11. 질문',
+    a: [
+      { answer: 'a. ', type: [7, 0, 5, 9 ] },
+      { answer: 'b.', type: [1, 3, 6, 11 ] },
+      { answer: 'c. ', type: [2, 10, 8, 4 ] },
+    ]
+  },
+  {
+    q: '11. 질문',
+    a: [
+      { answer: 'a. ', type: [7, 0, 5, 9 ] },
+      { answer: 'b.', type: [1, 3, 6, 11 ] },
+      { answer: 'c. ', type: [2, 10, 8, 4 ] },
+    ]
+  },
 ]
 
 const infoList = [
