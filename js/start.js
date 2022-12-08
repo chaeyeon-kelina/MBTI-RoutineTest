@@ -24,6 +24,13 @@ function setResult(){
   resultImg.classList.add('img-fluid');
   imgDiv.appendChild(resultImg);
 
+  var resultBgImg = document.createElement('img');
+  const imgDiv2 = document.querySelector('#resultBgImg');
+  resultBgImg.src = "img/result_bg.jpg";
+  resultBgImg.alt = point;
+  resultBgImg.classList.add('img-fluid');
+  imgDiv2.appendChild(resultBgImg);
+
   const resultDesc = document.querySelector('.resultDesc');
   resultDesc.innerHTML = infoList[point].desc;
 }

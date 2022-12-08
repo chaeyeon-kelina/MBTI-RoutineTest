@@ -14,6 +14,10 @@
   font-size: 20px;
 }
 
+#resultImg{
+  animation: fadeIn 2s;
+}
+
 .kakao{
   color: white;
   background-color: #FEE500;
