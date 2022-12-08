@@ -55,18 +55,23 @@
         <div
           id="resultBgImg"
           class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto"
-          style="position: relative">
-            <img src="../img/result_bg.jpg" alt="bg" class="img-fluid">
+          style="position: relative">            
             <div id="resultImg" style="position: absolute">
                 <img src="../img/IMG_0800.PNG" alt="0" class="img-fluid">
             </div>
+            <img src="../img/result_bg.jpg" alt="bg" class="img-fluid">
         </div>
 
         <div class="resultDesc">
             <p>설명~</p>
         </div>
-        <button type="button" class="kakao mt-3 py-2 px-3" onclick="js:setShare()">
-          공유하기
+        <script type="text/JavaScript">
+            function moveHome() {
+                location.href = "/index.html";
+            }
+        </script>
+        <button type="button" class="gohome mt-3 py-2 px-3" onclick="js:moveHome()">
+          나도 참여하기
         </button>
       </section>
       <script src="./js/data.js" charset="utf-8"></script>

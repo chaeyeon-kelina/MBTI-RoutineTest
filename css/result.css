@@ -40,7 +40,7 @@
 
 .gohome{
   color: white;
-  background-color: pink;
+  background-color: rgb(0, 70, 42);
   font-size: 20px;
   border: 0px;
   border-radius: 20px;
@@ -48,5 +48,5 @@
 
 .gohome:hover, .gohome:focus {
   background-color: whitesmoke;
-  color: pink;
+  color: rgb(0, 70, 42);
 }
