@@ -5,8 +5,8 @@ function setShare(){
   var resultAlt = resultImg.firstElementChild.alt;
   const shareTitle = '유형별 글쓰기 루틴 테스트';
   const shareDes = infoList[resultAlt].name;
-  const shareImage = url + 'img/IMG_080' + resultAlt + '.png';
-  const shareURL = url + 'page/result-' + resultAlt + '.html';
+  const shareImage = url + '../img/IMG_080' + resultAlt + '.png';
+  const shareURL = url + '../page/result-' + resultAlt + '.html';
 
   Kakao.Link.sendDefault({
     objectType: 'feed',

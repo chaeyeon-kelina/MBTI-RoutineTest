@@ -4,7 +4,7 @@ const result = document.querySelector("#result");
 
 const endPoint = 12;
 const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-const url = 'https://mbti-writing-routine-test.netlify.app/';
+// const url = 'https://mbti-writing-routine-test.netlify.app/';
 
 function calResult(){
   console.log(select);
@@ -14,17 +14,17 @@ function calResult(){
 
 function setResult(){
   let point = calResult();
-  const shareURL = url + '../page/result-' + point + '.html';
-  window.location.href = shareURL;
+  // const shareURL = url + 'page/result-' + point + '.html';
+  location.href = 'page/result-' + point + '.html';
 
   // const resultName = document.querySelector('.resultname');
   // resultName.innerHTML = infoList[point].name;
 
-  // var resultImg = document.createElement('img');
-  // const imgDiv = document.querySelector('#resultImg');
-  // var imgURL = 'img/IMG_080' + point + '.PNG';
-  // resultImg.src = imgURL;
-  // resultImg.alt = point;
+  var resultImg = document.createElement('img');
+  const imgDiv = document.querySelector('#resultImg');
+  var imgURL = 'img/IMG_080' + point + '.PNG';
+  resultImg.src = imgURL;
+  resultImg.alt = point;
   // resultImg.classList.add('img-fluid');
   // imgDiv.appendChild(resultImg);
 
@@ -35,8 +35,8 @@ function setResult(){
   // resultBgImg.classList.add('img-fluid');
   // imgDiv2.appendChild(resultBgImg);
 
-  // const resultDesc = document.querySelector('.resultDesc');
-  // resultDesc.innerHTML = infoList[point].desc;
+  const resultDesc = document.querySelector('.resultDesc');
+  resultDesc.innerHTML = infoList[point].desc;
 }
 
 function goResult(){
