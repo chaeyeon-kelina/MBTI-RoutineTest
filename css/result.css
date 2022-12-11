@@ -1,3 +1,8 @@
+mark{
+  background-color: rgb(255, 233, 108);
+  border-radius: 30%;
+}
+
 #result{
   display: none;
   background-color: whitesmoke;
@@ -14,11 +19,14 @@
 }
 
 .resultname{
-  font-size: 26px;
+  font-size: 30px;
+  font-style: bold;
 }
 
 .resultDesc{
   font-size: 20px;
+  padding-left: 18%;
+  padding-right: 18%;
 }
 
 #resultImg{
