@@ -1,8 +1,8 @@
 const url = 'https://mbti-writing-routine-test.netlify.app/';
 
 function setShare(){
-  // var resultImg = document.querySelector('#resultImg');
-  // var resultAlt = resultImg.firstElementChild.alt;
+  var resultImg = document.querySelector('#resultImg');
+  var resultAlt = resultImg.firstElementChild.alt;
   const shareTitle = '유형별 글쓰기 루틴 테스트';
   const shareDes = infoList[resultAlt].name;
   var tmp = location.pathname.split("/").pop().toString();
