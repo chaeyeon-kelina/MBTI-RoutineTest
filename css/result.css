@@ -3,6 +3,10 @@ mark{
   border-radius: 30%;
 }
 
+#btn{
+  margin: 1%;
+}
+
 #result{
   display: none;
   background-color: whitesmoke;
