@@ -17,8 +17,8 @@ function setResult(){
   // const shareURL = url + 'page/result-' + point + '.html';
   location.href = 'page/result-' + point + '.html';
 
-  // const resultName = document.querySelector('.resultname');
-  // resultName.innerHTML = infoList[point].name;
+  const resultName = document.querySelector('.resultname');
+  resultName.innerHTML = infoList[point].name;
 
   var resultImg = document.createElement('img');
   const imgDiv = document.querySelector('#resultImg');
