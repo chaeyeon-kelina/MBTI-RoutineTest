@@ -4,10 +4,10 @@ function setShare(){
   var resultImg = document.querySelector('#resultImg');
   var resultAlt = resultImg.firstElementChild.alt;
   const shareTitle = '유형별 글쓰기 루틴 테스트';
-  const shareDes = infoList[resultAlt].name;
   var tmp = location.pathname.split("/").pop().toString();
   tmp = tmp.replace('result-','');
   tmp = tmp.replace('.html','');
+  const shareDes = infoList[tmp].name;
   const shareImage = url + 'img/IMG_080' + tmp + '.png';
   const shareURL = url + 'page/result-' + tmp + '.html';
 

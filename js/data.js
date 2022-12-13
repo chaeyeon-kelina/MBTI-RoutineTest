@@ -185,7 +185,7 @@ const infoList = [
     desc: "",
   },
   {
-    name: "enfp",
+    name: "ENFP",
     desc: "",
   },
   {
